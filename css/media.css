@@ -1,0 +1,62 @@
+
+
+
+/* // Extra large devices  */
+@media (min-width: 1200px) { ... }
+
+
+/* // Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* // Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+
+/* // Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/* // Extra small devices */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+	/* banner_part start  */
+	.banner_txt h3 {
+	padding-top: 120px;
+	font-size: 35px;
+}
+
+.banner_txt h1 {
+	
+	font-size: 45px;
+	padding-top: 170px;
+	line-height: 60px;
+}
+
+.banner_txt p {
+
+	padding-top: 295px;
+	line-height: 30px;
+}
+
+.menu_img {
+	top: 110%;
+
+}
+
+	/* banner_part end  */
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
