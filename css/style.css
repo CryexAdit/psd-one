@@ -4,6 +4,7 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+	overflow: 0;
   }
   ul,ol{
   list-style-type: none;
@@ -264,7 +265,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
-.last_part {
+ .last_part h5{
   color: #111111;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
@@ -362,6 +363,7 @@
 	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.74);
 
 }
+
 .service_text p {
 	color: #444444;
 	font-size: 14px;
@@ -371,6 +373,9 @@
 	text-align: center;
 	border: 1px solid #f1f1f1;
 	background: #f1f1f1;
+
+}
+.service_text p:hover{
 	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.74);
 	box-shadow: 0px 0px 10px 2px #444444;
 }
